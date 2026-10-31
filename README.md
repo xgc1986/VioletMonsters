@@ -1,8 +1,10 @@
-# Español - Pokémon Violet PC
+
+
+# Español - Monstruos Violetas PC
 
 **Adaptación para PC a partir de una copia original proporcionada por el usuario.**
 
-Pokémon Violet PC es un proyecto orientado a adaptar la ejecución de Pokémon Violet al entorno de PC. Su propósito es traducir y adaptar la copia original aportada por el usuario, utilizando los archivos y recursos procedentes de esa misma copia.
+Monstruos Violetas PC es un proyecto orientado a adaptar la ejecución de Monstruos Violetas al entorno de PC. Su propósito es traducir y adaptar la copia original aportada por el usuario, utilizando los archivos y recursos procedentes de esa misma copia.
 
 > [!IMPORTANT]
 > **Arquitectura basada en ScarletNX: recompilación a código nativo con componentes de emulación.**
@@ -31,14 +33,14 @@ Además de una copia original del juego aportada por el usuario, se recomienda l
 
 ## Instalación y primer inicio
 
-1. **Obtener el programa.** Descarga la versión correspondiente de Pokémon Violet PC desde el canal de distribución del proyecto.
+1. **Obtener el programa.** Descarga la versión correspondiente de Monstruos Violetas PC desde el canal de distribución del proyecto.
 2. **Extraer los datos del juego.** Extrae los contenidos de **ExeFS** y **RomFS** de tu copia original en formato **`.nsp`**, utilizando las funciones de extracción de Ryujinx. Conserva las carpetas resultantes como `exefs` y `romfs`.
-3. **Preparar los archivos.** Utiliza las carpetas extraídas en el procedimiento de importación y preparación de Pokémon Violet PC, y completa el proceso de traducción correspondiente a la versión instalada.
+3. **Preparar los archivos.** Utiliza las carpetas extraídas en el procedimiento de importación y preparación de Monstruos Violetas PC, y completa el proceso de traducción correspondiente a la versión instalada.
 4. **Configurar e iniciar.** Selecciona los ajustes de gráficos y controles disponibles e inicia el juego.
 
 ## Gráficos y pantalla
 
-Pokémon Violet PC utiliza **Vulkan 1.3** como API de renderizado, de acuerdo con su base ScarletNX, y ofrece las siguientes opciones de gráficos y pantalla:
+Monstruos Violetas PC utiliza **Vulkan 1.3** como API de renderizado, de acuerdo con su base ScarletNX, y ofrece las siguientes opciones de gráficos y pantalla:
 
 | Apartado | Especificación |
 | --- | --- |
@@ -56,10 +58,6 @@ Pokémon Violet PC utiliza **Vulkan 1.3** como API de renderizado, de acuerdo co
 | --- | --- |
 | Dispositivos | Teclado y mando. |
 
-## Opción Extra
-
-La opción **Extra** se habilita en cuanto el usuario dispone de una **partida guardada**. Una vez disponible, permite acceder a dos secciones: **Objetos** y **Pokédex**.
-
 ### Objetos
 
 Muestra el catálogo de todos los objetos que se pueden obtener en el juego y permite gestionar sus cantidades en el inventario:
@@ -67,19 +65,15 @@ Muestra el catálogo de todos los objetos que se pueden obtener en el juego y pe
 - **Agregar objetos**, incluso si todavía no se han obtenido durante la partida.
 - **Aumentar o disminuir la cantidad** de los objetos.
 
-### Pokédex
-
-Muestra la lista de Pokémon que ya se han registrado en la **Pokédex de la partida guardada**.
-
 ## Demo
 
-[Ver la demo de Pokémon Violet PC en YouTube](https://www.youtube.com/watch?v=tIAnTTgj0dI)
+[Ver la demo de Monstruos Violetas PC en YouTube](https://www.youtube.com/watch?v=tIAnTTgj0dI)
 
 ## Proyecto base y atribuciones
 
-**Pokémon Violet PC utiliza [ScarletNX](https://github.com/scarletnx/ScarletNX) como base de desarrollo.**
+**Monstruos Violetas PC utiliza [ScarletNX](https://github.com/scarletnx/ScarletNX) como base de desarrollo.**
 
-Agradecemos a los autores y colaboradores de **ScarletNX** por el trabajo que sirve como punto de partida para Pokémon Violet PC.
+Agradecemos a los autores y colaboradores de **ScarletNX** por el trabajo que sirve como punto de partida para Monstruos Violetas PC.
 
 La licencia declarada por ScarletNX es **GPL-3.0-or-later**. Sus componentes de terceros se detallan en la documentación de [licencias y créditos](https://github.com/scarletnx/ScarletNX/blob/main/docs/CREDITS.md).
 
@@ -88,19 +82,19 @@ La licencia declarada por ScarletNX es **GPL-3.0-or-later**. Sus componentes de 
 ## Aviso importante sobre los archivos del juego
 
 > [!IMPORTANT]
-> **Este repositorio no contiene, almacena ni distribuye copias de Pokémon Violet ni de otros videojuegos.**
+> **Este repositorio no contiene, almacena ni distribuye copias de Monstruos Violetas ni de otros videojuegos.**
 >
 > El proyecto proporciona el software cuya finalidad es traducir y adaptar para PC una copia original aportada por el propio usuario. Los archivos y recursos necesarios deben proceder de esa copia: no se incluyen con el programa ni se suministran para su descarga desde este repositorio.
 >
 > El usuario debe proporcionar los archivos originales requeridos para utilizar la herramienta. La distribución del programa no sustituye la adquisición del juego ni concede derechos sobre su código, sus recursos o sus contenidos.
 >
-> Pokémon y las demás marcas, nombres y contenidos mencionados pertenecen a sus respectivos titulares. Pokémon Violet PC es un proyecto independiente y no está afiliado, patrocinado ni respaldado por los titulares del juego original.
+> Monstruos y las demás marcas, nombres y contenidos mencionados pertenecen a sus respectivos titulares. Violet Monsters PC es un proyecto independiente y no está afiliado, patrocinado ni respaldado por los titulares del juego original.
 
-# English - Pokémon Violet PC
+# English - Violet Monsters PC
 
 **PC adaptation using an original copy provided by the user.**
 
-Pokémon Violet PC is a project designed to adapt Pokémon Violet to run on PC. Its purpose is to translate and adapt the original copy supplied by the user, using the files and assets from that same copy.
+Violet Monsters PC is a project designed to adapt Violet Monsters to run on PC. Its purpose is to translate and adapt the original copy supplied by the user, using the files and assets from that same copy.
 
 > [!IMPORTANT]
 > **ScarletNX-based architecture: recompilation to native code with emulation components.**
@@ -129,14 +123,14 @@ In addition to an original copy of the game provided by the user, the following 
 
 ## Installation and First Launch
 
-1. **Download the program.** Download the appropriate version of Pokémon Violet PC from the project's distribution channel.
+1. **Download the program.** Download the appropriate version of Violet Monsters PC from the project's distribution channel.
 2. **Extract the game data.** Extract the contents of **ExeFS** and **RomFS** from your original copy in **`.nsp`** format using Ryujinx's extraction features. Keep the resulting folders named `exefs` and `romfs`.
-3. **Prepare the files.** Use the extracted folders in Pokémon Violet PC's import and setup process, and complete the code translation process required by the installed version.
+3. **Prepare the files.** Use the extracted folders in Violet Monsters PC's import and setup process, and complete the code translation process required by the installed version.
 4. **Configure and launch.** Select the available graphics and control settings, then launch the game.
 
 ## Graphics and Display
 
-Pokémon Violet PC uses **Vulkan 1.3** as its rendering API, in line with its ScarletNX foundation, and provides the following graphics and display options:
+Violet Monsters PC uses **Vulkan 1.3** as its rendering API, in line with its ScarletNX foundation, and provides the following graphics and display options:
 
 | Setting | Specification |
 | --- | --- |
@@ -156,7 +150,7 @@ Pokémon Violet PC uses **Vulkan 1.3** as its rendering API, in line with its Sc
 
 ## Extra Option
 
-The **Extra** option becomes available once the user has a **saved game**. It provides access to two sections: **Items** and **Pokédex**.
+The **Extra** option becomes available once the user has a **saved game**. It provides access to two sections: **Items** and **Monsterdex**.
 
 ### Items
 
@@ -165,19 +159,19 @@ Displays the catalog of all items obtainable in the game and allows users to man
 - **Add items**, even if they have not yet been obtained during the playthrough.
 - **Increase or decrease item quantities.**
 
-### Pokédex
+### Monsterdex
 
-Displays the Pokémon already registered in the **saved game's Pokédex**.
+Displays the Monsters already registered in the **saved game's Monsterdex**.
 
 ## Demo
 
-[Watch the Pokémon Violet PC demo on YouTube](https://www.youtube.com/watch?v=tIAnTTgj0dI)
+[Watch the Violet Monsters PC demo on YouTube](https://www.youtube.com/watch?v=tIAnTTgj0dI)
 
 ## Base Project and Attribution
 
-**Pokémon Violet PC is based on [ScarletNX](https://github.com/scarletnx/ScarletNX).**
+**Violet Monsters PC is based on [ScarletNX](https://github.com/scarletnx/ScarletNX).**
 
-We thank the authors and contributors of **ScarletNX** for the work that serves as the foundation for Pokémon Violet PC.
+We thank the authors and contributors of **ScarletNX** for the work that serves as the foundation for Violet Monsters PC.
 
 ScarletNX is licensed under **GPL-3.0-or-later**. Its third-party components are detailed in the [licenses and credits documentation](https://github.com/scarletnx/ScarletNX/blob/main/docs/CREDITS.md).
 
@@ -186,11 +180,11 @@ ScarletNX is licensed under **GPL-3.0-or-later**. Its third-party components are
 ## Important Notice Regarding Game Files
 
 > [!IMPORTANT]
-> **This repository does not contain, store, or distribute copies of Pokémon Violet or any other video games.**
+> **This repository does not contain, store, or distribute copies of Violet Monsters or any other video games.**
 >
 > The project provides software intended to translate and adapt a user-provided original copy for PC. The required files and assets must come from that copy: they are not included with the program or made available for download through this repository.
 >
 > Users must supply the original files required to use the tool. Distribution of the software does not replace purchasing the game or grant rights to its code, assets, or content.
 >
-> Pokémon and all other trademarks, names, and content mentioned belong to their respective owners. Pokémon Violet PC is an independent project and is not affiliated with, sponsored by, or endorsed by the original game's rights holders.
+> Monsters and all other trademarks, names, and content mentioned belong to their respective owners. Violet Monsters PC is an independent project and is not affiliated with, sponsored by, or endorsed by the original game's rights holders.
 
